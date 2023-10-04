@@ -2,14 +2,10 @@ import React from 'react';
 import {NextPage} from "next";
 import Image from "next/image";
 import Layout from "@/components/layout/Layout";
-import Head from "next/head";
 
 const NotFound: NextPage = () => {
     return (
-        <Layout>
-            <Head>
-                <title>Not Found</title>
-            </Head>
+        <Layout title={'Not Found'}>
             <div style={{
                 textAlign: 'center'
             }}>
@@ -19,4 +15,4 @@ const NotFound: NextPage = () => {
     );
 };
 
-export default NotFound ;
+export default NotFound;
